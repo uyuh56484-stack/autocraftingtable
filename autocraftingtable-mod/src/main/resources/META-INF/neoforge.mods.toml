@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="autocraftingtable"
+version="1.1.0"
+displayName="Auto Crafting Table"
+description="A crafting table with vanilla UI plus an auto-crafting panel that pulls resources from adjacent chests."
+
+[[dependencies.autocraftingtable]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.autocraftingtable]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "pattern": [
+    "HTH",
+    "R_R",
+    "TRH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "autocraftingtable:auto_crafting_table"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+{
+  "itemGroup.autocraftingtable": "Auto Crafting Table",
+  "block.autocraftingtable.auto_crafting_table": "Auto Crafting Table",
+  "gui.autocraftingtable.add": "Add craft",
+  "gui.autocraftingtable.list_title": "Saved auto crafts:"
+}
