@@ -28,7 +28,7 @@ jobs:
       # Если сборка упадет с ошибкой "Permission denied", значит, у файла gradlew нет прав,
       # но сначала попробуем так.
       - name: Build with detailed logs
-        run: ./gradlew build --no-daemon --stacktrace
+        run: gradlew build --no-daemon --stacktrace
 
       # 5. Сохраняем результат (твой .jar файл)
       - name: Upload Artifact
