@@ -21,7 +21,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build with detailed logs
-        run: ./gradlew build --no-daemon --stacktrace
+        run: gradle build --no-daemon --stacktrace
         # Для Windows пользователей (если вдруг будешь запускать локально) команда будет gradlew.bat build
 
       - name: Upload Artifact
